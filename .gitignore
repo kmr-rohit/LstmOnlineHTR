@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.env
+
+# Data (large files - download separately)
+data/db/
+data/processed/
+data/raw/
+*.json
+
+# Model checkpoints (large files)
+models/*.pth
+models/*.pt
+models/*.onnx
+
+# Logs
+logs/
+*.log
+wandb/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Test outputs
+test_results.json
+test_examples.json
